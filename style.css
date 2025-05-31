@@ -1,0 +1,261 @@
+
+
+  
+/* styles.css */
+  
+    
+    
+      .navbar ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .section {
+      display: none;
+      margin-top: 20px;
+    }
+
+    .section.active {
+      display: block;
+    }
+    
+.product-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #0ff4;
+}
+
+.product-icon {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 1.2em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-desc {
+  font-size: 0.95em;
+  color: #aaa;
+  text-align: center;
+}
+
+  
+ 
+.content {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9;
+  }
+  
+  .top-header {
+  background-color: #111;
+  padding: 20px 0;
+  text-align: center;
+      font-family: serif ;
+}
+
+.welcome-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  color:  #DFD700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+    font-family: serif ;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 2px;
+}
+
+.navbar li {
+  background: linear-gradient(to bottom, #ffe259, #f6a700);
+  border-radius: 5px 10px 0 0;
+  padding: 10px 15px;
+  box-shadow: 0 4px 0 #caa10;
+  transition: transform 0.2s ease;
+}
+
+.navbar li:hover {
+  transform: translateY(-3px);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #80890;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600000;
+  font-size: 1rem;
+}
+
+  
+  
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.profile-pic {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 2000px rgba(0, 255, 255, 0.4);
+  z-index: 1;
+}
+
+.name {
+  position: relative;
+  font-size: 3rem;
+  margin-top: 1rem;
+  z-index: 1;
+  color: #00ffff;
+  font-family: serif ;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #111;
+  font-family: 'serif' ;
+  font-size: 1.8rem;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 220px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card p {
+  padding: 1rem;
+  font-size: 0.95rem;
+}
+
+.contact {
+  padding: 2rem;
+  text-align: center;
+  background-color: #0a0a0a;
+  font-family: serif ;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+  color: #00ffff;
+}
+
+.contact-buttons a {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ffff;
+  color: #0f0f0f;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.contact-buttons a:hover {
+  background-color: #00cccc;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #080808;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+@media (max-width: 768px) {
+
+  .portfolio {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .card {
+    font-size: 90rem;
+    width: 89%;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .profile-pic {
+    width: 300px;
+    height: 250px;
+    
+  }
+}
+  .ios {
+    font-family: serif ;
+    
+  }
+ 
+  
+  </style>
+
